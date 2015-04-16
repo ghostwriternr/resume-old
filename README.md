@@ -16,13 +16,16 @@
 
 ##### Education
 
-|         |         |
-|:--------|--------:|
-|2013-2018| cell2   |
-| cell4   | cell5   |
+|:---------:|:------------------------------------------------------------------:|
+| 2013-2018 |B.Tech and M.Tech (Dual Degree) in Computer Science and Engineering |
+|(Expected) |Indian Institute of Technology, Kharagpur                           |
+|           |Cgpa: 7.02/10.0                                                     |
 |----
-| cell1   | cell2   |
-| cell4   | cell5   |
+|2013       |Class XII, Central Board of Secondary Education (CBSE)              |
+|           |Maharishi Vidya Mandir SSS, Chennai                                 |
+|           |Score: 95.6                                                         |
+|----
+|2013       |Class X, Central Board of Secondary Education (CBSE)                |
+|           |Kendriya Vidyalaya Picket, Hyderabad                                |
+|           |Gpa: 10.0/10.0                                                      |
 |=====
-| Foot1   | Foot2   |
-{: rules="groups"}
