@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2015.4.13)  16 APR 2015 13:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2015.4.13)  18 APR 2015 13:15
 entering extended mode
 **Naresh_CV.tex
 (C:\Users\ghost_000\Documents\GitHub\resume\Naresh_CV.tex
@@ -718,7 +718,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen157
 \titlewidthfirst=\dimen158
 )
-No file Naresh_CV.aux.
+(C:\Users\ghost_000\Documents\GitHub\resume\Naresh_CV.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
@@ -735,6 +735,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 47.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 47.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -857,11 +858,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
+
+(C:\Users\ghost_000\Documents\GitHub\resume\Naresh_CV.out)
+(C:\Users\ghost_000\Documents\GitHub\resume\Naresh_CV.out)
 \@outlinefile=\write3
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Requested font "[cmr10]" scaled 1000
  -> C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 Requested font "Fontin/ICU:script=latn;language=DFLT;mapping=tex-text;" at 24.8
@@ -882,6 +882,7 @@ pt
 Requested font "Fontin SmallCaps/ICU:script=latn;language=DFLT;mapping=tex-text
 ;" at 14.4pt
  -> C:/WINDOWS/Fonts/Fontin-SmallCaps.ttf
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
@@ -923,30 +924,30 @@ Requested font "Fontin SmallCaps/ICU:script=latn;language=DFLT;mapping=tex-text
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 204.
+(hyperref)                removing `\hfill' on input line 206.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--209
+Underfull \hbox (badness 10000) in paragraph at lines 208--211
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (C:\Users\ghost_000\Documents\GitHub\resume\Naresh_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 215.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 208 ({)
+### simple group (level 1) entered at line 210 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21590 strings out of 429025
- 396056 string characters out of 3166798
- 463513 words of memory out of 3000000
- 24734 multiletter control sequences out of 15000+200000
+ 21597 strings out of 429025
+ 396265 string characters out of 3166798
+ 463632 words of memory out of 3000000
+ 24735 multiletter control sequences out of 15000+200000
  4200 words of font info for 40 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
  46i,8n,48p,10398b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
