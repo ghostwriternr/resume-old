@@ -23,7 +23,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper,10pt]{article} % Default font size and paper size
+\documentclass[a4paper,10pt]{extarticle} % Default font size and paper size
 
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
@@ -33,8 +33,11 @@
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 
-\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+%\usepackage{fullpage}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.90cm}
+ %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
@@ -42,7 +45,7 @@
 
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
-\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
 
 \begin{document}
 
@@ -54,11 +57,13 @@
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\par{\centering{\Huge R \textsc{Naresh}}\bigskip\par} % Your name
+\par{\centering{\Huge R \textsc{Naresh}}\par} % Your name
+\par{\centering\large {\textsc{Department of Computer Science and Engineering}}\par}\large
 \par{\centering\large {\textsc{Undergraduate student at Indian Institute of Technology, Kharagpur}}\par}\large
 %\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
+\par{\centering\large {\textsc{B-410, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302}}\par}\large
 %\begin{flushleft}{\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}}\end{flushleft}
-\hspace{2cm}\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill{+91-7872833729}\hspace{2cm}
+\hspace{3.5cm}\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill{+91-7872833729}\hspace{3.5cm}
 
 %\section{Personal Data}
 %
@@ -73,15 +78,10 @@
 %	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Research Interests}
+%\section{Research Interests}
 
-- Complex and Social Networks\hfill
-- Autonomous Vehicles\hspace{3cm} \\
-- Algorithms\hfill
-- Machine Learning\hspace{3.6cm} \\
-- Software Design\hfill
-- Image Processing\hspace{3.7cm} \\
-- Artificial Intelligence
+%- Software Design\hfill
+%- Image Processing\hspace{3.7cm} \\
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -89,12 +89,9 @@
 
 \section{Education}
 
-\begin{tabular}{rl}	
+\begin{tabular}{r|p{16cm}}	
 2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
-\textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\\
-%& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
-%& Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
-&\normalsize \textsc{Cgpa}: 7.02/10.0\\
+\textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\hfill\textsc{Cgpa}: 7.05/10.0\\
 %\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
 &\\
 
@@ -102,20 +99,40 @@
 
 2013& Class XII, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
 %&110/110 \small\emph{Commerce Specialization},
-&\normalsize\textbf{Maharishi Vidya Mandir SSS}, Chennai\\
-%& Heavily specialized in mundane paperwork | \small Advisor: Stefano \textsc{Bonini}\\
-&\normalsize \textsc{Score}: 95.6\%\\
+&\normalsize\textbf{Maharishi Vidya Mandir SSS}, Chennai\hfill\textsc{Score}: 95.6\%\\
 %\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
 &\\
 
 %------------------------------------------------
 
-2001 & Class X, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
-&\normalsize\textbf{Kendriya Vidyalaya Picket}, Hyderabad\\
-& \textsc{Gpa}: 10.0/10.0\\
+2011 & Class X, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
+&\normalsize\textbf{Kendriya Vidyalaya Picket}, Hyderabad\hfill\textsc{Cgpa}: 10.0/10.0\\
 %\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
-&\\
 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+\section{Scholastic Achievements}
+
+{\hspace{0.5cm}- Secured 99.33 percentile in JEE Mains 2013}\hspace{3.8cm}{- Secured 98.11 percentile in JEE Advanced 2013}\\\
+{\hspace*{0.5cm}- Secured AIR 415 in ACM ICPC – Amritapuri online round}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{r|p{16cm}}
+\textsc{Languages} & C, C++, Java\\
+& {\itshape{Familiar with}} HTML, MySQL\\
+%\multicolumn{2}{c}{} \\
+\textsc{Operating Systems} &  Microsoft Windows, Linux (Ubuntu)\\
+%\multicolumn{2}{c}{} \\
+\textsc{Softwares and IDEs} & ROS, git, Code::Blocks, Visual Studio, Netbeans, \LaTeX\\
 \end{tabular}
 
 
@@ -123,43 +140,40 @@
 %	Academic Projects
 %----------------------------------------------------------------------------------------
 
-\section{Academic Projects}
+\section{Projects Undertaken}
 
-\begin{tabular}{r|p{12cm}}
+\begin{tabular}{r|p{16cm}}
 %\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
-\emph{Current} & \textbf{Kraken 2.0} \textsc{(Autonomous Mobile Robot)} \\
+\textsc{Current} & \textbf{Kraken 3.0} \textsc{(Autonomous Mobile Robot)} \\
 \textsc{Feb 2015} & \textbf{Group: }\textmd{\href{http://auv-iitkgp.in/}{Autonomous Underwater Vehicle Research Group}}, IIT Kharagpur\\
 & \textbf{Guide: }\textmd{\href{http://iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aWmdU}{Professor C. S. Kumar}}\\
-& \footnotesize{- Developing a robust autonomous mobile robot to participate in}\\
-& \footnotesize{ the annual AUVSI ROBOSUB held in San Diego, California.}\\
-& \footnotesize{- ROS (Robot operating system) has been adopted for software development and synchronization. ROS works on a publisher-subscriber based architecture by means of passing messages. Built different packages on the ROS stack.}\\
+%& \footnotesize{- Developing a robust autonomous mobile robot to participate in the annual AUVSI ROBOSUB held in San Diego, California.}\\
+& \footnotesize{- Worked in the Image Processing Team to implement algorithms in OpenCV for the bot to successfully complete multiple tasks. Got familiar with designing and implementing the control stack of the bot and scheduling tasks to run on the system using ROS.}\\
 \multicolumn{2}{c}{} \\
 
-%------------------------------------------------
+%\textsc{April 2015} & \textbf{Wikification}\\
+%\textsc{March 2015} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+%& \footnotesize{- Worked on implementing a {\href{http://www.cs.sjtu.edu.cn/~kzhu/papers/wikification.pdf}{research paper}} to generate links to Wikipedia pages of terms in a page.}\\
+%& \footnotesize{- The algorithm first identifies noun phrases and generates a Term-Sense mapping to disambiguate them. It then enriches the link co-occurrence matrix to improve the accuracy and then wikifies the article.}\\
+%& \footnotesize{ -Got familiar with the NLTK chunker, which was used to identify noun phrases.}\\
+%\multicolumn{2}{c}{} \\
 
-\emph{Current} & \textbf{\href{http://www.cs.sjtu.edu.cn/~kzhu/papers/wikification.pdf}{Wikiﬁcation via Link Co-occurrence}} \\
-\textsc{Feb 2015} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
-& \footnotesize{- Wikiﬁcation stands for the process of linking terms in a plain text document to Wikipedia articles which represent the correct meanings of the terms, can be thought of as a generalized Word Sense Disambiguation problem.}\\
-\end{tabular}
-
-%------------------------------------------------
-%	Development Projects
-%------------------------------------------------
-\section{Development Projects}
-
-\begin{tabular}{r|p{11cm}}
-
-\textsc{Feb 2015} & \textbf{Advanced Graph Calculator} \\
-& \footnotesize{- Contributed to the development of an advanced graph calculator that plots the graph of multi-variable systems on the screen.}\\
-& \footnotesize{- The software was built on the PyQt framework using matplotlib and numpy. The PyQt framework was used for creating the GUI for the application. matplotlib was used for generating 2D/3D plots. numpy was used for explicitly generating domain for the functions to be plotted.}\\
+\textsc{April 2015} & \textbf{Medical Lab Automation System}\\
+& \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
+& \footnotesize{- Developed a software based on JAVA for a Medical Lab Automation System which handles and automates the requests of the management and patients including the scheduling of tests, managing stocks, etc. 3 seperate records were maintained for handling the tasks and SQL was used for interfacing with the database.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Dec 2014} & \textbf{\href{http://www.robotix.in/tutorials/categ/opencv/lane_follow}{IP Based Lane Follower Robot}} \\
-& \footnotesize{- Developed an autonomous lane following robot that uses common image processing techniques to detect the path in an IEEE certified workshop based on image processing organized by Technology Robotix Society, IIT Kharagpur}\\
+\textsc{March 2015} & \textbf{Microsoft Code.Fun.Do}\\
+& \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements within the college. Windows Azure was used for database management and develepment was primarily done with Visual Studio.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Dec 2013} & \textbf{\href{http://www.robotix.in/tutorials/categ/auto/lfr}{Lane Follower Robot}} \\
-& \footnotesize{- Developed an autonomous line following robot using Atmel AVR microprocessor(Atmega16) in an IEEE certified workshop organized by Technology Robotix Scociety, IIT Kharagpur.}\\
+\textsc{Dec 2014} & \textbf{Object Follower Robot} \\
+& \textbf{Group: }\textmd{\href{http://www.robotix.in/}{Technology Robotix Society}}, IIT Kharagpur\\
+& \footnotesize{- Using the openCV libray, written the code for a WSAD robot which can follow the path using the directives sent by overhead camera whose recorded images were processed and the movement instructions were generated.}\\
+%\multicolumn{2}{c}{} \\
+
+%\textsc{Dec 2013} & \textbf{\href{http://www.robotix.in/tutorials/categ/auto/lfr}{Lane Follower Robot}} \\
+%& \footnotesize{- Developed an autonomous line following robot using Atmel AVR microprocessor(Atmega16) in an IEEE certified workshop organized by Technology Robotix Scociety, IIT Kharagpur.}\\
 \end{tabular}
 
 
@@ -169,33 +183,18 @@
 
 \section{Positions of Responsibility}
 
-\begin{tabular}{rp{11cm}}
-\emph{Current} & \textbf{Senior Editor}, Technology Literature Society, IIT Kharagpur \\
-& \footnotesize{- Managing the content and design team of the society.}\\
-& \footnotesize{- Writer in the English Team, and working as a senior editor for all English publications.}\\
-\emph{Apr 2015} & \textbf{Secretary}, CodeClub, IIT Kharagpur \\
-& \footnotesize{- Part of the managing team, leading a group of 25 students.}\\
-& \footnotesize{- Conducted several events, including Microsoft code.fun.do and BITWISE, the Annual Departmental Fest of the Department of Computer Science and Engineering, alongside several fortnightly competitive coding competitions within the campus.}\\
+\begin{tabular}{r|p{15cm}}
+\textsc{Current} & \textbf{Senior Editor and Co-Governer}, Technology Literature Society, IIT Kharagpur \\
+%& \footnotesize{- Managing the content and design team of the society.}\\
+%& \footnotesize{- Writer in the English Team, and working as a senior editor for all English publications.}\\
+\textsc{Current} & \textbf{General Secretary}, CodeClub, IIT Kharagpur \\
+%\textsc{Apr 2015} & \textbf{Secretary}, CodeClub, IIT Kharagpur \\
+%& \footnotesize{- Part of the managing team, leading a group of 25 students.}\\
+%& \footnotesize{- Conducted several events, including Microsoft code.fun.do and BITWISE, the Annual Departmental Fest of the Department of Computer Science and Engineering, alongside several fortnightly competitive coding competitions within the campus.}\\
 %& \footnotesize{- Designed the software for updating the leaderboards in real-time during competitions as a part of BITWISE '15.}\\
-\emph{Apr 2015} & \textbf{Team Member}, Google Students Club, IIT Kharagpur \\
-& \footnotesize{- Organized multiple workshops and events, primarily focused on Android Development, in association with Google.}\\
-& \footnotesize{- Conducted a workshop on the {\href{https://www.polymer-project.org/0.5/}{Polymer Project}}, which received high levels of}\\ & \footnotesize{participation.}\\
-\emph{Apr 2014} & \textbf{Co-ordinator}, CodeClub, IIT Kharagpur \\
-& \footnotesize{- Part of the organizing and sponsorship team for BITWISE '14.}\\
-\end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS 
-%----------------------------------------------------------------------------------------
-
-\section{Computer Skills}
-
-\begin{tabular}{r|p{11cm}}
-\textsc{Proficient} & C, C++, Python, Java\\
-\multicolumn{2}{c}{} \\
-\textsc{Intermediate} &  Robot Operating System (ROS), HTML, CSS, mySQL\\
-\multicolumn{2}{c}{} \\
-\textsc{Dabbled} & Linux / Ubuntu, Git\\
+\textsc{Apr 2015} & \textbf{Team Member}, Google Students Club, IIT Kharagpur \\
+%& \footnotesize{- Organized multiple workshops and events, primarily focused on Android Development, in association with Google.}\\
+%& \footnotesize{- Conducted a workshop on the {\href{https://www.polymer-project.org/0.5/}{Polymer Project}}, which received high levels of}\\ & \footnotesize{participation.}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -208,6 +207,9 @@
 {\hspace{0.5cm}- Programming and Data Structures (T/L)} \hfill {- Algorithms-I (T/L)} \hspace{3.2cm} \\
 {\hspace*{0.5cm}- Discrete Structures} \hfill {- Software Engineering (T/L)} \hspace{1.8cm} \\
 {\hspace*{0.5cm}- Formal Languages and Automata Theory \hfill {- Switching Circuits (T/L)} \hspace{2.3cm} \\
+{\itshape{Currently Studying:}}\\
+{\hspace*{0.5cm}- Algorithms - II} \hfill {- Compilers (T/L)} \hspace{3.6cm} \\
+{\hspace*{0.5cm}- Computer Organisation and Architecture (T/L)} \hfill {- Matrix Algebra} \hspace{3.6cm} \\
 
 %----------------------------------------------------------------------------------------
 
