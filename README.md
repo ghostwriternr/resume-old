@@ -15,14 +15,3 @@
 * Software Design
 
 ##### Education
-
-|         |         |
-|:--------|--------:|
-|2013-2018| cell2   |
-| cell4   | cell5   |
-|----
-| cell1   | cell2   |
-| cell4   | cell5   |
-|=====
-| Foot1   | Foot2   |
-{: rules="groups"}
