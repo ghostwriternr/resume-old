@@ -36,7 +36,7 @@
 %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
 %\usepackage{fullpage}
 \usepackage{geometry}
-\geometry{a4paper,margin=0.90cm}
+\geometry{a4paper,margin=1.25cm}
  %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
@@ -46,6 +46,11 @@
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\usepackage{textcomp}
 
 \begin{document}
 
@@ -63,16 +68,7 @@
 %\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
 \par{\centering\large {\textsc{B-410, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302}}\par}\large
 %\begin{flushleft}{\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}}\end{flushleft}
-\hspace{3.5cm}\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill{+91-7872833729}\hspace{3.5cm}
-
-%\section{Personal Data}
-%
-%\begin{tabular}{rl}
-%\textsc{Place and Date of Birth:} & Canada  | 20 November 1987 \\
-%\textsc{Address:} & 123 Broadway, City, State, Canada \\
-%\textsc{Phone:} & +1 111 1112\\
-%\textsc{email:} & \href{mailto:john@smith.com}{john@smith.com}
-%\end{tabular}
+\hspace{3.5cm}\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill \normalsize {\href{http://ghostwriternr.me/}{ghostwriternr.me}} \hfill {+91-7872833729}\hspace{3.5cm}
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH INTERESTS
@@ -92,33 +88,20 @@
 \begin{tabular}{r|p{16cm}}	
 2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
 \textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\hfill\textsc{Cgpa}: 7.28/10.0\\
-%\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
 &\\
 
 %------------------------------------------------
 
 2013& Class XII, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
-%&110/110 \small\emph{Commerce Specialization},
 &\normalsize\textbf{Maharishi Vidya Mandir SSS}, Chennai\hfill\textsc{Score}: 95.6\%\\
-%\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
 &\\
 
 %------------------------------------------------
 
 2011 & Class X, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
 &\normalsize\textbf{Kendriya Vidyalaya Picket}, Hyderabad\hfill\textsc{Cgpa}: 10.0/10.0\\
-%\hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
 
 \end{tabular}
-
-%----------------------------------------------------------------------------------------
-%	ACHIEVEMENTS
-%----------------------------------------------------------------------------------------
-
-\section{Scholastic Achievements}
-
-{\hspace{0.5cm}- Secured 99.33 percentile in JEE Mains 2013}\hspace{3.8cm}{- Secured 98.11 percentile in JEE Advanced 2013}\\\
-{\hspace*{0.5cm}- Secured AIR 415 in ACM ICPC – Amritapuri online round}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS 
@@ -127,13 +110,13 @@
 \section{Technical Skills}
 
 \begin{tabular}{r|p{16cm}}
-\textsc{Programming (Proficient)} & C, C++, Python, Java\\
-& {\itshape{Familiar with}} Javascript, Scala, C#\\
-\textsc{Libraries/Platforms} & Node.js, AngularJS, Express, jQuery, D3, Socket.io
-\textsc{Markup/Templating} & HTML, CSS, Mustache/Handlebars
-\textsc{Data/Databases} & SQL, MongoDB
-\textsc{SCM/Systems} & Git, AWS, S3, Redshift
-\textsc{Softwares and IDEs} & ROS, git, Code::Blocks, Visual Studio, Netbeans, \LaTeX\\
+\textsc{Programming} & {\itshape{Proficient:}} C, C++, Python, Java\\
+& {\itshape{Familiar:}} Javascript, Scala, \verb!C#! \\
+\textsc{Libraries/Platforms} & Node.js, AngularJS, Express, jQuery, D3, Socket.io\\
+\textsc{Markup/Templating} & HTML, CSS, Mustache/Handlebars, Liquid\\
+\textsc{Data/Databases} & SQL, MongoDB, PostgreSQL\\
+\textsc{SCM/Systems} & Git, AWS (RDS, S3, Redshift, DMS, Data Pipeline)\\
+\textsc{Softwares} & ROS, git, \LaTeX\\
 \end{tabular}
 
 
@@ -141,42 +124,80 @@
 %	Academic Projects
 %----------------------------------------------------------------------------------------
 
-\section{Projects Undertaken}
+\section{Academic Projects}
 
 \begin{tabular}{r|p{16cm}}
-%\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
-\textsc{Current} & \textbf{Kraken 3.0} \textsc{(Autonomous Mobile Robot)} \\
-\textsc{Feb 2015} & \textbf{Group: }\textmd{\href{http://auv-iitkgp.in/}{Autonomous Underwater Vehicle Research Group}}, IIT Kharagpur\\
-& \textbf{Guide: }\textmd{\href{http://iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aWmdU}{Professor C. S. Kumar}}\\
-%& \footnotesize{- Developing a robust autonomous mobile robot to participate in the annual AUVSI ROBOSUB held in San Diego, California.}\\
-& \footnotesize{- Worked in the Image Processing Team to implement algorithms in OpenCV for the bot to successfully complete multiple tasks. Got familiar with designing and implementing the control stack of the bot and scheduling tasks to run on the system using ROS.}\\
+
+\textsc{Current} & \textbf{Data extraction from biomedical literature for automating systematic reviews} \\
+& \textbf{B.Tech Project}\\
+& \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+& \footnotesize{- Worked on feature detection of a particular class of text (specifically, inclusion and exclusion criteria for patients) from a huge collection of biomedical literature using NLP Techniques with high precision and recall.}\\
+& \footnotesize{- Methods used include Support Vector Classifier (Scikit-learn), Latent Dirichlet Allocation (LDA) and Weighted Keyword Matching.}\\
 \multicolumn{2}{c}{} \\
 
-%\textsc{April 2015} & \textbf{Wikification}\\
-%\textsc{March 2015} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
-%& \footnotesize{- Worked on implementing a {\href{http://www.cs.sjtu.edu.cn/~kzhu/papers/wikification.pdf}{research paper}} to generate links to Wikipedia pages of terms in a page.}\\
-%& \footnotesize{- The algorithm first identifies noun phrases and generates a Term-Sense mapping to disambiguate them. It then enriches the link co-occurrence matrix to improve the accuracy and then wikifies the article.}\\
-%& \footnotesize{ -Got familiar with the NLTK chunker, which was used to identify noun phrases.}\\
-%\multicolumn{2}{c}{} \\
+\textsc{May 2016} & \textbf{Software Development Intern}\\
+\textsc{June 2016} & \textbf{ezDI, Ahmedabad}\\
+& \footnotesize{- Worked on a team involved on integrating a Business Intelligence tool that aggregates data from all their products and makes the data available for easy analytics.}\\
+& \footnotesize{- Was solely responsible for migrating the data to a datawarehouse (Amazon Redshift) including schema conversion and data type incompaitibility handling, and built a custom server on nodejs using AWS APIs to manually replicate data and changes to it from RDS to Redshift through S3 at regular intervals.}\\
+& \footnotesize{- Implemented several proof-of-concepts to integrate a BI solution with embedding capabilities and using REST APIs to communicate with ezDI's existing platform and setup the base models for the team on Looker{\textsuperscript{TM}} to be able to take full advantage of reusable SQL views.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{April 2016} & \textbf{Selene} \textsc{(A community based music-recommendation engine.)} \\
+& \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
+& \footnotesize{- Built an app that serves as a social music-recommendation engine based on YouTube that extracts usage data from {\itshape{Selene}} users who fall under a branch length of 5 nodes in a user's Facebook friends graph, and based on your preferred genre, recommends music you might like.}\\
+& \footnotesize{- The app was built following material-design guidelines, and integrated with Musixmatch to parse the YouTube links and get relevant metadata to provide direct links to other services such as Spotify and Soundcloud.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{April 2016} & \textbf{Retrieving salient sentences from Reddit AMAs} \\
+\textsc{March 2016} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+& \footnotesize{- Built a web-based summariser that provides summaries from /r/iAMA with abilities to choose any AMA from a list or through instant search (implemented with Angular autocomplete.)}\\
+& \footnotesize{- After obtaining data from the web crawler, LDA model training was done on the entire dataset and categorised using link flairs on Reddit. k-mean clustering was then used to cluster the questions and answers and summarised using lexrank and summpy. Concept tagging was then done using Alchemy API on each cluster.)}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+\begin{tabular}{r|p{16cm}}
+
+\textsc{April 2016} & \textbf{Kraken 3.0} \textsc{(Autonomous Mobile Robot)} \\
+\textsc{Feb 2015} & \textbf{Group: }\textmd{\href{http://auv-iitkgp.in/}{Autonomous Underwater Vehicle Research Group}}, IIT Kharagpur\\
+& \textbf{Guide: }\textmd{\href{http://iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aWmdU}{Professor C. S. Kumar}}\\
+& \footnotesize{- Worked in the Image Processing Team to implement algorithms in OpenCV for the bot to successfully complete multiple tasks including Buoy detection and path following. Was part of the group implementing machine learning algorithms to better detect colours underwater using dynamic thresholding.}\\
+& \footnotesize{- Got familiar with designing and implementing the control stack of the bot and scheduling tasks to run on the system using ROS.}\\
+\multicolumn{2}{c}{} \\
 
 \textsc{April 2015} & \textbf{Medical Lab Automation System}\\
 & \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
-& \footnotesize{- Developed a software based on JAVA for a Medical Lab Automation System which handles and automates the requests of the management and patients including the scheduling of tests, managing stocks, etc. 3 seperate records were maintained for handling the tasks and SQL was used for interfacing with the database.}\\
+& \footnotesize{- Developed a software based on JAVA for a Medical Lab Automation System which handles and automates the requests of the management and patients including the scheduling of tests, managing stocks, etc.}\\
+& \footnotesize{- 3 seperate records were maintained for handling the tasks and SQL was used for interfacing with the database.}\\
+
+\end{tabular}
+
+\section{Additional Projects}
+
+\begin{tabular}{r|p{16cm}}
+
+\textsc{April 2016} & \textbf{Data Extractor from 2D plots} \\
+\textsc{March 2016} & \textbf{OpenSoft 2016}\\
+& \footnotesize{- Worked on a team of 15 as a part of my hostel's team in OpenSoft 2016 to build a graph extractor that detects plots in any PDF and plots the values in a tabular format.}\\
+& \footnotesize{- Was primarily responsible for detecting and scaling the ticks from the color segregated image and scale it appropriately using the axis values and generate the plot. Was also solely reponsible for generating the table structure using Python libraries and to fully build a working GUI for the application on Java Swing.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{March 2015} & \textbf{Microsoft Code.Fun.Do}\\
+\textsc{March 2015} & \textbf{Campus Connexions}\\
+& Deveoped at \textbf{Microsoft Code.Fun.Do 2015}\\
 & \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements within the college. Windows Azure was used for database management and develepment was primarily done with Visual Studio.}\\
+& \footnotesize{- Was solely responsible for building the }\\
 \multicolumn{2}{c}{} \\
 
 \textsc{Dec 2014} & \textbf{Object Follower Robot} \\
 & \textbf{Group: }\textmd{\href{http://www.robotix.in/}{Technology Robotix Society}}, IIT Kharagpur\\
-& \footnotesize{- Using the openCV libray, written the code for a WSAD robot which can follow the path using the directives sent by overhead camera whose recorded images were processed and the movement instructions were generated.}\\
-%\multicolumn{2}{c}{} \\
+& \footnotesize{- Using the openCV libray, built the image detection algorithms for a WSAD robot which can follow the path using the directives sent by overhead camera whose recorded images were processed and the movement instructions were generated.}\\
+\multicolumn{2}{c}{} \\
 
-%\textsc{Dec 2013} & \textbf{\href{http://www.robotix.in/tutorials/categ/auto/lfr}{Lane Follower Robot}} \\
-%& \footnotesize{- Developed an autonomous line following robot using Atmel AVR microprocessor(Atmega16) in an IEEE certified workshop organized by Technology Robotix Scociety, IIT Kharagpur.}\\
+\textsc{Dec 2013} & \textbf{Lane Follower Robot} \\
+& \textbf{Group: }\textmd{\href{http://www.robotix.in/}{Technology Robotix Society}}, IIT Kharagpur\\
+& \footnotesize{- Developed an autonomous line following robot using Atmel AVR microprocessor(Atmega16) in an IEEE certified workshop organized by Technology Robotix Scociety, IIT Kharagpur.}\\
+
 \end{tabular}
-
 
 %----------------------------------------------------------------------------------------
 %	POSITIONS OF RESPONSIBILITY
@@ -185,10 +206,10 @@
 \section{Positions of Responsibility}
 
 \begin{tabular}{r|p{15cm}}
-\textsc{Current} & \textbf{Senior Editor and Co-Governer}, Technology Literature Society, IIT Kharagpur \\
+\textsc{Current} & \textbf{Executive Editor}, Technology Literature Society, IIT Kharagpur \\
 %& \footnotesize{- Managing the content and design team of the society.}\\
 %& \footnotesize{- Writer in the English Team, and working as a senior editor for all English publications.}\\
-\textsc{Current} & \textbf{General Secretary}, CodeClub, IIT Kharagpur \\
+\textsc{Apr 2016} & \textbf{General Secretary}, CodeClub, IIT Kharagpur \\
 %\textsc{Apr 2015} & \textbf{Secretary}, CodeClub, IIT Kharagpur \\
 %& \footnotesize{- Part of the managing team, leading a group of 25 students.}\\
 %& \footnotesize{- Conducted several events, including Microsoft code.fun.do and BITWISE, the Annual Departmental Fest of the Department of Computer Science and Engineering, alongside several fortnightly competitive coding competitions within the campus.}\\
@@ -205,12 +226,32 @@
 \section{Coursework
 \hfill\small\textsc{(T)heory and (L)aboratory}}
 
-{\hspace{0.5cm}- Programming and Data Structures (T/L)} \hfill {- Algorithms-I (T/L)} \hspace{3.2cm} \\
-{\hspace*{0.5cm}- Discrete Structures} \hfill {- Software Engineering (T/L)} \hspace{1.8cm} \\
-{\hspace*{0.5cm}- Formal Languages and Automata Theory \hfill {- Switching Circuits (T/L)} \hspace{2.3cm} \\
-{\itshape{Currently Studying:}}\\
-{\hspace*{0.5cm}- Algorithms - II} \hfill {- Compilers (T/L)} \hspace{3.6cm} \\
-{\hspace*{0.5cm}- Computer Organisation and Architecture (T/L)} \hfill {- Matrix Algebra} \hspace{3.6cm} \\
+\begin{multicols}{2}
+- Programming and Data Structures (T/L) \\
+- Algorithms-I (T/L) \\
+- Discrete Structures \\
+- Software Engineering (T/L) \\
+- Formal Languages and Automata Theory \\
+- Switching Circuits (T/L) \\
+- Algorithms - II \\
+- Compilers (T/L) \\
+- Computer Organisation and Architecture (T/L) \\
+- Matrix Algebra \\
+- Database Management Systems (T/L) \\
+- Operating Systems (T/L) \\
+- Computer Networks (T/L) \\
+- Information Retrieval
+\end{multicols}
+% {\itshape{Currently Studying:}}\\
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+
+\section{Scholastic Achievements}
+
+{\hspace{0.5cm}- Secured 99.33 percentile in JEE Mains 2013}\hspace{3.8cm}{- Secured 98.11 percentile in JEE Advanced 2013}\\\
+{\hspace*{0.5cm}- Secured AIR 415 in ACM ICPC – Amritapuri online round}
 
 %----------------------------------------------------------------------------------------
 
