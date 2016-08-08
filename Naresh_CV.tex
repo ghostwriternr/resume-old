@@ -39,10 +39,12 @@
 %\usepackage{fullpage}
 \usepackage{geometry}
 \geometry{a4paper,margin=1.25cm}
+%\geometry{a4paper,left=20mm, top=20mm}
  %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
-\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolour}{rgb}{0.3,0.3,0.3} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
 
 \usepackage{titlesec} % Used to customize the \section command
@@ -53,6 +55,8 @@
 \setlength{\columnsep}{1cm}
 
 \usepackage{textcomp}
+
+\usepackage{fontawesome}
 
 \begin{document}
 
@@ -70,7 +74,7 @@
 %\par{{\begin{center}Dual Degree, \emph{Computer Science and Engineering}\end{center}}}
 \par{\centering\large {\textsc{A-209, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302}}\par}\large
 %\begin{flushleft}{\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}}\end{flushleft}
-\hspace{3.5cm}\normalsize {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill \normalsize {\href{http://ghostwriternr.me/}{ghostwriternr.me}} \hfill {+91-7872833729}\hspace{3.5cm}
+\hspace{1cm}\normalsize \faEnvelope\ {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill \normalsize  \faGlobe\ {\href{http://ghostwriternr.me/}{ghostwriternr.me}} \hfill \normalsize \faGithub\ {\href{https://github.com/ghostwriternr}{ghostwriternr}}\hfill \normalsize  \faLinkedinSquare\ {\href{https://www.linkedin.com/in/naresh-r-464a8b8b}{naresh-r}} \hfill {\faPhone\ +91-7872833729} \hspace{1cm}
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH INTERESTS
@@ -89,19 +93,19 @@
 
 \begin{tabular}{r|p{16cm}}	
 2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
-\textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\\
+\textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\hfill\textsc{Cgpa}: 7.28/10.0\\
 &\\
 
 %------------------------------------------------
 
 2013& Class XII, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
-&\normalsize\textbf{Maharishi Vidya Mandir SSS}, Chennai\\
+&\normalsize\textbf{Maharishi Vidya Mandir SSS}, Chennai\hfill\textsc{Score}: 95.6\%\\
 &\\
 
 %------------------------------------------------
 
 2011 & Class X, \textsc{}\textsc{Central Board of Secondary Education (CBSE)} \\
-&\normalsize\textbf{Kendriya Vidyalaya Picket}, Hyderabad\\
+&\normalsize\textbf{Kendriya Vidyalaya Picket}, Hyderabad\hfill\textsc{Cgpa}: 10.0/10.0\\
 
 \end{tabular}
 
@@ -124,14 +128,14 @@
 
 \begin{tabular}{r|p{16cm}}
 
-\textsc{June 2016} & \textbf{Software Development Intern}\\
+\textsc{Jun 2016} & \textbf{Software Development Intern}\\
 \textsc{May 2016} & \textbf{ezDI, Ahmedabad}\\
 & \footnotesize{- Worked on integrating a Business Intelligence tool that aggregates data from all of ezDI's products and makes the data available for easy analytics.}\\
 & \footnotesize{- Was solely responsible for migrating the data to a datawarehouse (Amazon Redshift) including schema conversion and data type incompaitibility handling, and built a custom server on nodejs using AWS APIs to manually replicate data and changes to it from RDS to Redshift through S3 at regular intervals.}\\
 & \footnotesize{- Implemented several proof-of-concepts to integrate a BI solution with embedding capabilities and using REST APIs to communicate with ezDI's existing platform and setup the base models for the team on Looker{\textsuperscript{TM}} to be able to take full advantage of reusable SQL views.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{April 2016} & \textbf{Kraken 3.0} \textsc{(Autonomous Mobile Robot)} \\
+\textsc{Apr 2016} & \textbf{Kraken 3.0} \textsc{(Autonomous Mobile Robot)} \\
 \textsc{Feb 2015} & \textbf{Group: }\textmd{\href{http://auv-iitkgp.in/}{Autonomous Underwater Vehicle Research Group}}, IIT Kharagpur\\
 & \textbf{Guide: }\textmd{\href{http://iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aWmdU}{Professor C. S. Kumar}}\\
 & \footnotesize{- Worked on an autonomous underwater vehicle to represent India and IIT Kharagpur at competitions held in India and abroad.}\\
@@ -156,7 +160,7 @@
 & \footnotesize{- Methods used include Support Vector Classifier (Scikit-learn), Latent Dirichlet Allocation (LDA) and Weighted Keyword Matching.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{April 2016} & \textbf{Selene} \textsc{(A community based music-recommendation engine.)} \\
+\textsc{Apr 2016} & \textbf{Selene} \textsc{(A community based music-recommendation engine.)} \\
 & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
 & \footnotesize{- Built an app that serves as a social music-recommendation engine based on YouTube that extracts usage data from {\itshape{Selene}} users who fall under a branch length of 5 nodes in a user's Facebook friends graph, and recommends most popular tracks among them.}\\
 & \footnotesize{- The app was built following material-design guidelines, and integrated with Musixmatch to parse the YouTube links and get relevant metadata to provide direct links to other services such as Spotify and Soundcloud.}\\
@@ -166,13 +170,13 @@
 
 \begin{tabular}{r|p{16cm}}
 
-\textsc{April 2016} & \textbf{Retrieving salient sentences from Reddit AMAs} \\
-\textsc{March 2016} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+\textsc{Apr 2016} & \textbf{Retrieving salient sentences from Reddit AMAs} \\
+\textsc{Mar 2016} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
 & \footnotesize{- Built a web-based summariser that provides summaries from /r/iAMA with abilities to choose any AMA from a list or through instant search (implemented with Angular autocomplete.)}\\
 & \footnotesize{- After obtaining data from the web crawler, LDA model training was done on the entire dataset and categorised using link flairs on Reddit. k-mean clustering was then used to cluster the questions and answers and summarised using lexrank and summpy. Concept tagging was then done using Alchemy API on each cluster.)}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{April 2015} & \textbf{Medical Lab Automation System}\\
+\textsc{Apr 2015} & \textbf{Medical Lab Automation System}\\
 & \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
 & \footnotesize{- Developed a software built using JAVA Swing for a Medical Lab Automation System which handles and automates the requests of the management and patients.}\\
 & \footnotesize{- 3 seperate records were maintained for handling the tasks and SQL was used for interfacing with the database. Key features included scheduling of tests, managing stocks, notifications on case completion, etc.}\\
@@ -183,13 +187,13 @@
 
 \begin{tabular}{r|p{16cm}}
 
-\textsc{April 2016} & \textbf{\href{https://github.com/ghostwriternr/Opensoft-2016}{Data Extractor from 2D plots}} \\
-\textsc{March 2016} & \textbf{OpenSoft 2016}\\
+\textsc{Apr 2016} & \textbf{\href{https://github.com/ghostwriternr/Opensoft-2016}{Data Extractor from 2D plots}} \\
+\textsc{Mar 2016} & \textbf{OpenSoft 2016}\\
 & \footnotesize{- Worked on a team of 15 as a part of my hostel's team in OpenSoft 2016 to build a graph extractor that detects plots in any PDF and plots the values in a tabular format.}\\
 & \footnotesize{- Was primarily responsible for detecting and scaling the ticks from the color segregated image and scale it appropriately using the axis values and generate the plot. Was also solely reponsible for generating the table structure using Python libraries and to fully build a working GUI for the application on Java Swing.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{March 2015} & \textbf{Campus Connexions}\\
+\textsc{Mar 2015} & \textbf{Campus Connexions}\\
 & Developed at \textbf{Microsoft Code.Fun.Do 2015}\\
 & \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements within the college. Windows Azure was used for database management and develepment was primarily done with Visual Studio.}\\
 & \footnotesize{- Was solely responsible for building the complete front end for the app, and to connect with Azure to dynamically load content in the news feed.}\\
