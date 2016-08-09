@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{extarticle} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\fontspec{[FontAwesome.otf]}
+
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+%\usepackage{fullpage}
+\usepackage{geometry}
+%\geometry{a4paper,margin=1.25cm}
+\geometry{a4paper,total={175mm,257mm}}
+ %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolour}{rgb}{0.45,0.45,0.45} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\usepackage{textcomp}
+
+\usepackage{fontawesome}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge R \textsc{Naresh}}\par} % Your name
+\par{\centering\large {\textsc{Department of Computer Science and Engineering}}\par}\large
+\par{\centering\large {\textsc{Undergraduate student at Indian Institute of Technology, Kharagpur}}\par}\large
+\par{\centering\large {\textsc{A-209, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302}}\par}\large
+\hspace{0.5cm}\normalsize \faEnvelope\ {\href{mailto:nareshmdu@gmail.com}{nareshmdu@gmail.com}}\hfill \normalsize  \faGlobe\ {\href{http://ghostwriternr.me/}{ghostwriternr.me}} \hfill \normalsize \faGithub\ {\href{https://github.com/ghostwriternr}{ghostwriternr}}\hfill \normalsize  \faLinkedinSquare\ {\href{https://www.linkedin.com/in/naresh-r-464a8b8b}{naresh-r}} \hfill {\faPhone\ +91-7872833729} \hspace{0.5cm} \\[10pt]
+
+\textbf{\large{Company Recruitment Team}} \hfill \textit{August 9, 2016}
+
+\textsc{Salesforce.com France SAS} \\
+\textsc{3 Avenue Octave Gréard}\\
+\textsc{75007 Paris} \\
+
+\underline{\textbf{Job Application for the role of Software Engineer, Intern}}
+
+Dear sir or madam,\\
+
+For me, a lifetime full of desires to travel the world always stemmed from the longing to explore different cultures and traditions, to stay in the most unique locations and interact with a diverse set of people. Thankfully, it seems like the Airbnb team is passionate about delivering the same experience to the rest of the world and fulfil the dreams of millions like me. And I believe that's just one of the reasons why I think I'd fit perfectly in your team, a role that combines my skills in Engineering and the satisfaction of helping the world experience their lifelong dream. \\
+
+I’ve completed one Engineering internship, and was offered a full-time position by the company's VP for my addicition to getting the work done. I am devoted to the field of Computer Science and have been exploring several fields over the last couple of years. Recently, I've narrowed down my research interests to Natural Language Processing (NLP), Image Processing (IP) and Machine Learning (ML). I am sufficiently proficient with several front-end and back-end technologies, and open to work on either end of the spectrum. I have expanded my rhetorical skills greatly over the past years thanks to a fair level of public speaking during my intership and my tenure as a governer at my college's literary society. \\
+
+I am a conscientious person who believes in hard work and attention to detail. I thorougly enjoy working with a team, as it helps expand my thinking capabilities and ideas. I'm flexible and usually quick to pick up new skills. Thanks to the brilliant work culture currently instilled at Airbnb, I believe I will be able to work at maximum efficiency and make more than satisfactory contributions to the project(s) allotted.\\
+
+I look forward to speaking with you in further detail about the internship and opportunity with Airbnb. I hope I’ll get the chance to show you more of my abilities once I join your team.\\
+
+Sincerely,
+
+\textbf{\large{R Naresh}}\\
+Department of Computer Science and Engineering\\
+Indian Institute of Technology, Kharagpur\\
+West Bengal, India\\
+
+\itshape{Attached: Curriculum Vitae}
+
+\end{document}
