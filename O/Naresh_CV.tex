@@ -38,7 +38,7 @@
 %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
 %\usepackage{fullpage}
 \usepackage{geometry}
-\geometry{a4paper,margin=0.75cm}
+\geometry{a4paper,margin=0.50cm}
 %\geometry{a4paper,left=20mm, top=20mm}
  %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
@@ -58,7 +58,7 @@
 
 \usepackage{fontawesome}
 
-\def\arraystretch{0.85}
+\def\arraystretch{0.77}
 
 \begin{document}
 
@@ -88,9 +88,10 @@
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
+\vspace{-0.4cm}
 \section{Education}
 
-\begin{tabular}{r|p{17cm}}	
+\begin{tabular}{r|p{17.5cm}}	
 2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
 \textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\\
 &\textbf{Coursework: }{Programming and Data Structures, Discrete Structures, Algorithms-I \& II, Switching Circuits, Operating Systems, Computer Networks, Machine Learning, Image Processing, Software Engineering, Compilers, Database Management Systems, Information Retrieval, Advanced Graph Theory}
@@ -102,9 +103,9 @@
 
 \section{Technical Skills}
 
-\begin{tabular}{r|p{17cm}}
-\textsc{Programming} & {\itshape{Proficient in}} C, C++ and \itshape{Familiar with} Javascript, Python, Java, \verb!C#! \\
-\textsc{Libraries/Frameworks} & Node.js, AngularJS, Express, jQuery, D3, Socket.io, Bootstrap, ROS\\
+\begin{tabular}{r|p{17.5cm}}
+\textsc{Programming} & {\itshape{Proficient in}} C, C++, \itshape{competent in} Javascript, Python and \itshape{familiar with} Java, \verb!C#! \\
+\textsc{Libraries/Frameworks} & Node.js, AngularJS, Express, D3, Socket.io, Bootstrap, OpenCV, ROS\\
 \textsc{Markup/Templating} & HTML, CSS, Sass, \LaTeX\\
 \textsc{Databases} & MySQL, MongoDB, PostgreSQL\\
 \textsc{Systems/Platforms} & Git, AWS (RDS, S3, Redshift, DMS), Android
@@ -112,18 +113,18 @@
 
 \section{Experience}
 
-\begin{tabular}{r|p{17cm}}
+\begin{tabular}{r|p{17.5cm}}
 
-\textsc{Jun 2016} & \textbf{Software Development Intern}\hfill\textbf{ezDI, Ahmedabad}\\
+\textsc{Jun 2016} & \textbf{Software Development Intern}\hfill\textbf{\href{http://www.ezdi.com/}{ezDI, Ahmedabad}}\\
 \textsc{May 2016}& \footnotesize{- Worked on integrating a Business Intelligence tool that aggregates data from all of ezDI's products for easy analytics.}\\
 & \footnotesize{- Was solely responsible for automating migration of data to a data warehouse (Amazon Redshift) using a custom server built on nodejs using AWS APIs to replicate data and changes in RDS to Redshift through S3 at regular intervals.}\\
-& \footnotesize{- Implemented several proof-of-concepts to embed a BI solution into the platform and set up multiple base models to take full advantage of reusable SQL views.}\\
+& \footnotesize{- Implemented proof-of-concepts to embed a BI solution into the platform and set up base models to take advantage of reusable SQL views.}\\
 \multicolumn{2}{c}{} \\
 
 \textsc{Apr 2016} & \textbf{Software Team Member} \textsc{- Kraken 3.0}\hfill\textbf{\href{http://auv-iitkgp.in/}{Autonomous Underwater Vehicle Research Group}}\\
 % \textsc{Feb 2015} & \textbf{Guide: }\textmd{\href{http://iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aWmdU}{Professor C. S. Kumar}}\\
 \textsc{Feb 2015} & \footnotesize{- Worked on an autonomous underwater vehicle to represent India and IIT Kharagpur at competitions held in India and abroad.}\\
-& \footnotesize{- Worked in the Image Processing Team to implement algorithms in OpenCV for the bot to successfully complete multiple task including Buoy detection and path following. Was part of the group implementing a Neural Network based adaptive image segmentation to adopt to changing lighting conditions.}
+& \footnotesize{- Worked in the Image Processing Team to implement algorithms in OpenCV and ROS for the bot to successfully complete multiple task including Buoy detection and path following. Was part of the group implementing a Neural Network based adaptive image segmentation to adopt to changing lighting conditions.}
 \end{tabular}
 
 
@@ -133,7 +134,21 @@
 
 \section{Academic Projects}
 
-\begin{tabular}{r|p{17cm}}
+\begin{tabular}{r|p{17.5cm}}
+
+\textsc{Current} & \textbf{Automated entity comparison for Wikipedia text corpora} \\
+% & \textbf{Bachelor's Thesis Project}\\
+% & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
+& \footnotesize{- Implemented a novel comparative text mining task using a graph-based framework to model and measure semantic commonality and currently working on improvising results for specific domains using Wikipedia, leveraging its distinct features.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Current} & \textbf{Lyrics generator using neural networks} \\
+& \footnotesize{- Working on a lyrics generator that generates a new song in an artist's style. Created a  database of song lyrics and used tensorflow to create a Long Short Term Memory (LSTM) neural network that learns artists' styles of writing, including words, rhymes, chorus, etc.}\\
+\multicolumn{2}{c}{} \\
+
+\textsc{Oct 2017} & \textbf{Lowpolify \textsc{(Low-poly art generator)}} \\
+& \footnotesize{- Created a web app that generates a low-poly art version of a given image that works by Delaunay Triangulation of points, using noise reduction, edge detection and randomisation algorithms for improved results and parallel processing for rendering the output faster.}\\
+\multicolumn{2}{c}{} \\
 
 \textsc{Apr 2016} & \textbf{Data extraction from biomedical literature for automating systematic reviews} \\
 % & \textbf{B.Tech Project}\\
@@ -142,47 +157,48 @@
 % & \footnotesize{- Methods used include Support Vector Classifier (Scikit-learn), Latent Dirichlet Allocation (LDA) and Weighted Keyword Matching.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Apr 2016} & \textbf{Selene} \textsc{(A community based music-recommendation engine.)} \\
+\textsc{Apr 2016} & \textbf{Selene} \textsc{(A community based music-recommendation engine)} \\
 % & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
-& \footnotesize{- Built an Android app that serves as a social music-recommendation engine based on YouTube that extracts usage data from {\itshape{Selene}} users who fall under a branch length of 5 nodes in a user's Facebook friends graph, and recommends most popular tracks among them.}\\
+& \footnotesize{- Built an Android app that serves as a social music-recommendation engine based on YouTube that extracts usage data from {\itshape{Selene}} users who fall under a branch length of 5 nodes in a user's Facebook friends graph, and recommends the most popular tracks among them.}\\
 % & \footnotesize{- The app was built following material-design guidelines, and integrated with Musixmatch to parse the YouTube links and get relevant metadata to provide direct links to other services such as Spotify and Soundcloud.}\\
 \multicolumn{2}{c}{} \\
 
 \textsc{Apr 2016} & \textbf{Retrieving salient sentences from Reddit AMAs} \\
 % \textsc{Mar 2016} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
-& \footnotesize{- Built a web-based summariser that provides summaries from /r/iAMA with abilities to choose any AMA from a list or through instant search (implemented with Angular autocomplete.)}\\
+& \footnotesize{- Built a web-based summariser that provides summaries from /r/iAMA with abilities to choose any AMA from a list or through instant search.}\\
 % & \footnotesize{- After obtaining data from the web crawler, LDA model training was done on the entire dataset and categorised using link flairs on Reddit. k-mean clustering was then used to cluster the questions and answers and summarised using lexrank and summpy. Concept tagging was then done using Alchemy API on each cluster.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Mar 2016} & \textbf{\href{http://ghostwriternr.me/dbmsass3/}{Studious - Course Management System}}\\
+\textsc{Mar 2016} & \textbf{Studious \textsc{(Course Management System)}}\\
 % & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pabitra/}{Professor Pabitra Mitra}}\\
-& \footnotesize{- Built a complete course management system that supported authentication \& authorization, User Access Control for 4 different types of users, real-time messaging with notifications (using socket.io), calendar support and all major features one can expect from a CMS including faculty management, course progression, self-evaluated tests, etc.}\\
+& \footnotesize{- Built a complete course management system that supported authentication \& authorization, User Access Control for 4 different types of users, real-time messaging with notifications (using socket.io), calendar support and all major features one can expect from a CMS.}\\
 % & \footnotesize{- The complete workflow was built using the MEAN stack. Twitter Bootstrap was utilised for making the site fully responsive.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Apr 2015} & \textbf{Medical Lab Automation System}\\
+% \textsc{Apr 2015} & \textbf{Medical Lab Automation System}\\
 % & \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
-& \footnotesize{- Developed a software using JAVA Swing for a Medical Lab Automation System which handles and automates all requests of the management and patients.}
+% & \footnotesize{- Developed a software using JAVA Swing for a Medical Lab Automation System which handles and automates all requests of the management and patients.}
 % & \footnotesize{- 3 separate records were maintained for handling the tasks and SQL was used for interfacing with the database. Key features included scheduling of tests, managing stocks, notifications on case completion, etc.}\\
 \end{tabular}
 
+\vspace{-0.3cm}
 \section{Hackathons \& Workshops}
 
-\begin{tabular}{r|p{17cm}}
+\begin{tabular}{r|p{17.5cm}}
 
-\textsc{Apr 2016} & \textbf{\href{https://github.com/ghostwriternr/Opensoft-2016}{Data Extractor from 2D plots}}\hfill\textbf{OpenSoft 2016}\\
-& \footnotesize{- Built a graph extractor that detects multi-variable graphs in any given PDF and tabulates them autonomously taking into consideration features like axis values, scale, legend}\\
+\textsc{Apr 2016} & \textbf{Data Extractor from 2D plots}\hfill\textbf{OpenSoft 2016}\\
+& \footnotesize{- Built a graph extractor that detects multi-variable graphs in any given PDF and tabulates them autonomously taking into consideration features like axis values, scales and legends.}\\
 % & \footnotesize{- Was primarily responsible for detecting and scaling the ticks from the colour segregated image and scale it appropriately using the axis values and generate the plot. Was also solely responsible for generating the table structure using Python libraries and to fully build a working GUI for the application on Java Swing.}\\
 \multicolumn{2}{c}{} \\
 
 \textsc{Mar 2015} & \textbf{Campus Connexions}\hfill\textbf{Microsoft Code.Fun.Do 2015}\\
-& \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements within the college.}\\
+& \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements r the college.}\\
 % Windows Azure was used for database management and development was primarily done with Visual Studio.}\\
 % & \footnotesize{- Was solely responsible for building the complete front end for the app, and to connect with Azure to dynamically load content in the news feed.}\\
 \multicolumn{2}{c}{} \\
 
 \textsc{Dec 2014} & \textbf{Object Follower Robot}\hfill\textbf{Technology Robotix Society, IIT Kharagpur}\\
-& \footnotesize{- Implemented image detection algorithms using openCV for a WSAD robot which can follow a specified path using the directives sent by overhead camera whose recorded images were processed and movement were instructions generated.}
+& \footnotesize{- Implemented image detection algorithms using openCV for a WSAD robot which can follow a specified path using the directives sent by overhead camera whose recorded images were processed and movement instructions generated.}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -192,6 +208,7 @@
 \section{Positions of Responsibility}
 
 \begin{tabular}{r|p{15cm}}
+\textsc{Current} & \textbf{Captain}, Team LBS, OpenSoft 2017\\
 \textsc{Current} & \textbf{Executive Editor}, Technology Literary Society, IIT Kharagpur \\
 %& \footnotesize{- Managing the content and design team of the society.}\\
 %& \footnotesize{- Writer in the English Team, and working as a senior editor for all English publications.}\\
@@ -200,7 +217,7 @@
 %& \footnotesize{- Part of the managing team, leading a group of 25 students.}\\
 %& \footnotesize{- Conducted several events, including Microsoft code.fun.do and BITWISE, the Annual Departmental Fest of the Department of Computer Science and Engineering, alongside several fortnightly competitive coding competitions within the campus.}\\
 %& \footnotesize{- Designed the software for updating the leaderboards in real-time during competitions as a part of BITWISE '15.}\\
-\textsc{Apr 2015} & \textbf{Team Member}, Google Students Club, IIT Kharagpur
+\textsc{Apr 2015} & \textbf{Core Team Member}, Google Students Club, IIT Kharagpur
 %& \footnotesize{- Organized multiple workshops and events, primarily focused on Android Development, in association with Google.}\\
 %& \footnotesize{- Conducted a workshop on the {\href{https://www.polymer-project.org/0.5/}{Polymer Project}}, which received high levels of}\\ & \footnotesize{participation.}\\
 \end{tabular}
