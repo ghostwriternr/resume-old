@@ -38,7 +38,7 @@
 %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
 %\usepackage{fullpage}
 \usepackage{geometry}
-\geometry{a4paper,margin=0.50cm}
+\geometry{a4paper,margin=0.40cm}
 %\geometry{a4paper,left=20mm, top=20mm}
  %To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
@@ -58,7 +58,7 @@
 
 \usepackage{fontawesome}
 
-\def\arraystretch{0.77}
+\def\arraystretch{0.79}
 
 \begin{document}
 
@@ -92,9 +92,9 @@
 \section{Education}
 
 \begin{tabular}{r|p{17.5cm}}	
-2013-2018 & B.Tech and M.Tech (Dual Degree) in \textsc{Computer Science and Engineering}\\
+2013-2018 & B.Tech and M.Tech (Dual Degree) in \textbf{Computer Science and Engineering}\hfill\textsc{Cgpa}: 7.36/10.0\\
 \textsc{(Expected)}&\textbf{Indian Institute of Technology}, Kharagpur\\
-&\textbf{Coursework: }{Programming and Data Structures, Discrete Structures, Algorithms-I \& II, Switching Circuits, Operating Systems, Computer Networks, Machine Learning, Image Processing, Software Engineering, Compilers, Database Management Systems, Information Retrieval, Advanced Graph Theory}
+&\textbf{Coursework: }{Programming and Data Structures, Algorithms-I \& II, Software Engineering, Compilers, Switching Circuits, Operating Systems, Computer Networks, Information Retrieval, Database Management Systems, Theory of Computation, Machine Learning, Image Processing, Advanced Graph Theory}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -104,11 +104,11 @@
 \section{Technical Skills}
 
 \begin{tabular}{r|p{17.5cm}}
-\textsc{Programming} & {\itshape{Proficient in}} C, C++, \itshape{competent in} Javascript, Python and \itshape{familiar with} Java, \verb!C#! \\
-\textsc{Libraries/Frameworks} & Node.js, AngularJS, Express, D3, Socket.io, Bootstrap, OpenCV, ROS\\
-\textsc{Markup/Templating} & HTML, CSS, Sass, \LaTeX\\
+\textsc{Programming} & \itshape{Proficient in} C, C++, \itshape{competent in} Javascript, Python and \itshape{familiar with} Java, \verb!C#! \\
+\textsc{Libraries / Frameworks} & Node.js, AngularJS, Express, D3, Socket.io, Bootstrap, OpenCV, ROS\\
 \textsc{Databases} & MySQL, MongoDB, PostgreSQL\\
-\textsc{Systems/Platforms} & Git, AWS (RDS, S3, Redshift, DMS), Android
+\textsc{Systems / Platforms} & Git, AWS (RDS, S3, Redshift, DMS), Linux, Android\\
+\textsc{Markup / Templating} & HTML, CSS, Sass
 \end{tabular}
 
 \section{Experience}
@@ -117,7 +117,7 @@
 
 \textsc{Jun 2016} & \textbf{Software Development Intern}\hfill\textbf{\href{http://www.ezdi.com/}{ezDI, Ahmedabad}}\\
 \textsc{May 2016}& \footnotesize{- Worked on integrating a Business Intelligence tool that aggregates data from all of ezDI's products for easy analytics.}\\
-& \footnotesize{- Was solely responsible for automating migration of data to a data warehouse (Amazon Redshift) using a custom server built on nodejs using AWS APIs to replicate data and changes in RDS to Redshift through S3 at regular intervals.}\\
+& \footnotesize{- Was solely responsible for automating migration and replication of data from RDS to Redshift through S3 at regular intervals using a custom server built on nodejs taking advantage of AWS APIs.}\\
 & \footnotesize{- Implemented proof-of-concepts to embed a BI solution into the platform and set up base models to take advantage of reusable SQL views.}\\
 \multicolumn{2}{c}{} \\
 
@@ -139,14 +139,14 @@
 \textsc{Current} & \textbf{Automated entity comparison for Wikipedia text corpora} \\
 % & \textbf{Bachelor's Thesis Project}\\
 % & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
-& \footnotesize{- Implemented a novel comparative text mining task using a graph-based framework to model and measure semantic commonality and currently working on improvising results for specific domains using Wikipedia, leveraging its distinct features.}\\
+& \footnotesize{- Implemented a novel comparative text mining task using a graph-based framework to model and measure semantic commonality and currently working on improving the results for specific domains using Wikipedia, leveraging its distinct features.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Current} & \textbf{Lyrics generator using neural networks} \\
-& \footnotesize{- Currently working on a lyrics generator that generates a new song in an artist's style. Created a  database of song lyrics and used tensorflow to create a Long Short Term Memory (LSTM) neural network that learns artists' styles of writing, including words, rhymes, chorus, etc.}\\
+\textsc{Nov 2016} & \textbf{Lyrics generator using neural networks} \\
+& \footnotesize{- Worked on a lyrics generator that generates a new song in an artist's style. Created a  database of song lyrics and used tensorflow to create a Long Short Term Memory (LSTM) neural network that learns artists' styles of writing, including words, rhymes, chorus, etc.}\\
 \multicolumn{2}{c}{} \\
 
-\textsc{Oct 2017} & \textbf{Lowpolify \textsc{(Low-poly art generator)}} \\
+\textsc{Oct 2016} & \textbf{Lowpolify \textsc{(Low-poly art generator)}} \\
 & \footnotesize{- Created a web app that generates a low-poly art version of a given image that works by Delaunay Triangulation of points, using noise reduction, edge detection and randomisation algorithms for improved results and parallel processing for rendering the output faster.}\\
 \multicolumn{2}{c}{} \\
 
@@ -165,7 +165,7 @@
 
 \textsc{Apr 2016} & \textbf{Retrieving salient sentences from Reddit AMAs} \\
 % \textsc{Mar 2016} & \textbf{Guide: }\textmd{\href{http://cse.iitkgp.ac.in/~pawang/}{Professor Pawan Goyal}}\\
-& \footnotesize{- Built a summariser that provides summaries from /r/iAMA, filtered by topic, with the abilities to choose any AMA through instant search.}\\
+& \footnotesize{- Built a summariser that provides summaries from /r/iAMA, clustered by broad and finer topics, using Lexrank and Alchemy API.}\\
 % & \footnotesize{- After obtaining data from the web crawler, LDA model training was done on the entire dataset and categorised using link flairs on Reddit. k-mean clustering was then used to cluster the questions and answers and summarised using lexrank and summpy. Concept tagging was then done using Alchemy API on each cluster.}\\
 \multicolumn{2}{c}{} \\
 
@@ -175,16 +175,22 @@
 % & \footnotesize{- The complete workflow was built using the MEAN stack. Twitter Bootstrap was utilised for making the site fully responsive.}\\
 \multicolumn{2}{c}{} \\
 
-% \textsc{Apr 2015} & \textbf{Medical Lab Automation System}\\
+%\textsc{Apr 2015} & \textbf{Medical Lab Automation System}\\
 % & \textbf{Guide: }\textmd{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=SSmUZ}{Professor Partha Pratim Das}}\\
-% & \footnotesize{- Developed a software using JAVA Swing for a Medical Lab Automation System which handles and automates all requests of the management and patients.}
+%& \footnotesize{- Developed software using JAVA Swing for a Medical Lab Automation System which handles and automates all requests of the management and patients.} \\
 % & \footnotesize{- 3 separate records were maintained for handling the tasks and SQL was used for interfacing with the database. Key features included scheduling of tests, managing stocks, notifications on case completion, etc.}\\
+%\multicolumn{2}{c}{} \\
+
 \end{tabular}
 
 \vspace{-0.3cm}
 \section{Hackathons \& Workshops}
 
 \begin{tabular}{r|p{17.5cm}}
+
+\textsc{Dec 2016} & \textbf{StoI} \textsc{(SMS to Internet)}\hfill\textbf{Pragyan Hackathon `17}\\
+& \footnotesize{- Made an android application that provided basic internet access including Google Maps navigation, Duckduckgo quick search, Zomato reviews, etc. without a data connection. Communcation with the server was done using Twilio's SMS APIs.}\\
+\multicolumn{2}{c}{} \\
 
 \textsc{Apr 2016} & \textbf{Data Extractor for 2D plots}\hfill\textbf{OpenSoft 2016}\\
 & \footnotesize{- Built a graph extractor that detects multi-variable graphs in any given PDF and tabulates them autonomously taking into consideration features like axis values, scales and legends.}\\
@@ -195,10 +201,10 @@
 & \footnotesize{- Developed an intra-college social networking app with real time feed from registered users that would serve as a platform for official and unofficial announcements related to the college.}\\
 % Windows Azure was used for database management and development was primarily done with Visual Studio.}\\
 % & \footnotesize{- Was solely responsible for building the complete front end for the app, and to connect with Azure to dynamically load content in the news feed.}\\
-\multicolumn{2}{c}{} \\
+%\multicolumn{2}{c}{} \\
 
-\textsc{Dec 2014} & \textbf{Object Follower Robot}\hfill\textbf{Technology Robotix Society, IIT Kharagpur}\\
-& \footnotesize{- Implemented image detection algorithms using openCV for a WSAD robot which can follow a specified path using the directives sent by overhead camera whose recorded images were processed and movement instructions generated.}
+%\textsc{Dec 2014} & \textbf{Object Follower Robot}\hfill\textbf{Technology Robotix Society, IIT Kharagpur}\\
+%& \footnotesize{- Implemented image detection algorithms using openCV for a WSAD robot which can follow a specified path using the directives sent by overhead camera whose recorded images were processed and movement instructions generated.}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
