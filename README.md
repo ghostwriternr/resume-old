@@ -3,7 +3,7 @@
 ## Undergraduate student at Indian Institute of Technology, Kharagpur
 A-209, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302
 * nareshmdu@gmail.com
-* ghostwriternr.me
+* [ghostwriternr.me](http://ghostwriternr.me/)
 * +91-7872833729
 
 ## Education
