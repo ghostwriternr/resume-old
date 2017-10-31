@@ -1,9 +1,9 @@
 # R Naresh
 ## Department of Computer Science and Engineering
 ## Undergraduate student at Indian Institute of Technology, Kharagpur
-A-209, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302
+A-211, LBS Hall of Residence, IIT Kharagpur, West Bengal - 721302
 * nareshmdu@gmail.com
-* [ghostwriternr.me](http://ghostwriternr.me/)
+* [ghostwriternr.me](https://ghostwriternr.me/)
 * +91-7872833729
 
 ## Education
